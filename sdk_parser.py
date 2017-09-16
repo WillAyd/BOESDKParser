@@ -13,7 +13,7 @@ class BOESDKParser():
         base_url = protocol + '://' + host + ':' + port
         self.bip_url = base_url + '/biprws'
         self.webi_url = self.bip_url + '/raylight/v1'
-        self.s1_url = self.bip_url + '/s1/v1'
+        self.sl_url = self.bip_url + '/sl/v1'
         self.headers = {
             'accept' : content_type
             }
